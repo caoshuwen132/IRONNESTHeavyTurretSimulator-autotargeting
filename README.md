@@ -1,6 +1,6 @@
 # IronNestFCS 修改版功能说明
 
-本文说明当前修改版已经实现的功能、自动决策规则和已知限制。逻辑 DLL 同时兼容《Iron Nest: Heavy Turret Simulator》正式版与 Demo。
+本文说明当前修改版已经实现的功能、自动决策规则和已知限制。宿主同时识别游戏 1577 更新前后带冒号和不带冒号的产品名，兼容《Iron Nest: Heavy Turret Simulator》正式版与 Demo。
 
 ## 安装与热重载
 
