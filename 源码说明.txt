@@ -1,0 +1,18 @@
+IronNestFCS 完整源代码
+
+本目录用于 GitHub 发布和二次开发，与旁边的“单文件安装版”相互独立。
+
+包含：
+- IronNestFCS：MelonLoader 宿主与 F9 热重载入口；
+- IronNestFCS.Abstractions：宿主与逻辑层的共享接口；
+- IronNestFCS.Logic：自动索敌、自动射击、真实炮位解算、标志同步、自由视角、碰撞箱和中文状态面板；
+- IronNestFCS.CustomRecords：原项目自定义唱片功能；
+- IronNestFCS.Installer：单文件离线安装/卸载程序源码及编译时内嵌资源；
+- 纯文字安装说明、README、功能说明、许可证和解决方案文件。
+
+不包含：
+- Git 历史、本地 .NET SDK、bin/obj 编译缓存；
+- 已编译的玩家发布版 EXE（但安装器项目的编译时内嵌资源已包含）；
+- 游戏文件和媒体素材。
+
+编译前请安装 .NET 6 SDK，并在项目文件中把 GameDir 指向已安装且完成 MelonLoader 首次生成的游戏目录。
